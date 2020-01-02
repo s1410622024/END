@@ -8,15 +8,24 @@ body {
     font-family: 微軟正黑體, sans-serif;
     background-color: #000000;
 }
-
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #C4A648;
+}
 .btn-primany {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: #C4A648;;
+    border-color: #C4A648;
+
+}
+.btn-primany:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+ 
 
 }
 .form-signin {
-    background-color: #fff;
+    background-color: #1A1C1E;
     max-width: 400px;
 }
 .form-signin input[type="email"] {
@@ -75,13 +84,13 @@ html, body {
 .add a{
     text-decoration: none;
     background-color: transparent;
-    color: rgb(73, 72, 72);
+    color: #C4A648;
     font-size: 16px;
 }
 .add a:hover{
     text-decoration: none;
     background-color: transparent;
-    color: rgb(219, 119, 26);
+    color: #fff;
     font-size: 16px;
 }
 #bake{
@@ -108,7 +117,7 @@ html, body {
     min-width: 100%;
     min-height: 100%;
     z-index: -8;
-    opacity: .5;
+    opacity:0.2;
 }
 @media(min-width: 768px){
     .bd-placeholder-img-lg{
